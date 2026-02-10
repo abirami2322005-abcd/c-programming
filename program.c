@@ -1,17 +1,8 @@
-#include <stdio.h>
-
-int main() {
-    int num;
-    scanf("%d",&num);
-    if (num>0){
-        printf("Positive number");
-    }
-    if (num<0){
-        printf("Negative number");
-    }
-    if (num==0){
-        printf("zero");
-    }
-
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    printf("%d",a|b);
     return 0;
 }
