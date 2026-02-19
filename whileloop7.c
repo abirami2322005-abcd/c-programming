@@ -4,7 +4,7 @@ int n;
 int months;
 scanf("%d%d",&n,&months);
 int current_streak=0;
-int max_streak;
+int max_streak=0;
 int i=0;
 int emi;
 while(i<n){
@@ -25,5 +25,6 @@ while(i<n){
 }
     printf("longest default streak:%d",max_streak);
     return 0;
+
 
 }
