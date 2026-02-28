@@ -1,8 +1,7 @@
 #include<stdio.h>
-int main()
-{
-    int a;
-    scanf("%d",&a);
-    printf("Age : %d",a);
+#include<string.h>
+int main(){
+    int len= strlen("AI");
+    printf("%d",len);
     return 0;
 }
